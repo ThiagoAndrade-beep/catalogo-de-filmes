@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito sans;
+}
+
+html {
+    background-color: #202020;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-around;
+    border-bottom: 1px solid orange;
+    padding-bottom: 20px;
+    gap: 1rem;
+}
+
+.header-title {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    color: orange;
+    letter-spacing: 1.25px;
+}
+
+.header-title h2 {
+    font-size: 18px;
+}
+
+.header-input {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+
+.header-input input {
+    background-color: #525356;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: #ddd;
+    width: 400px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-buttons p {
+    color: #fff;
+    letter-spacing: 1.25px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header-buttons p:hover {
+    color: #ccc;
+}
+
+.header-buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 12rem;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 36px;
+    margin-top: 1.8rem;
+}
+
+.container-header h1 {
+    color: #fff;
+    letter-spacing: 1.25px;
+    font-weight: 700;
+    font-size: 44px;
+    
+}
+
+select {
+    background-color:transparent;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 17px;
+    width: 8%;
+}
+
+img {
+    width: 160px;
+    height: 220px;
+    border-radius: 8px; 
+}
+
+.filme {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.filme-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.filme-content h2 {
+    color: #ccc;
+}
+
+.filme-classification {
+    display: flex;
+    gap: 6px;
+    font-size: 17px;
+    color: gray;
+}
+
+.filme-classification i {
+    color: yellow;
+}
+
+.filme-description {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+}
+
+.filme-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.filme-btn button {
+    border-radius: 20px;
+}
+
+#view-details-btn {
+    font-weight: 700;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+#add-list-btn {
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.6rem;
+    cursor: pointer;
+}

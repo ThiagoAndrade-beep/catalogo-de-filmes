@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogos de filmes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="catalogo.css">
+    <script src="catalogo.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">
+            <i class="bi bi-film"></i>
+            <h2>MOVIESPACE</h2>
+        </div>
+        <div class="header-input">
+            <i class="bi bi-search"></i>
+            <input type="search" id="search-movie" placeholder="Busque por um filme">
+        </div>
+        <div class="header-buttons">
+            <p>ALL FILMS</p>
+            <p>MINHA LISTA</p>
+            <button class="btn-login">
+                Login
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="container-header">
+            <h1 id="movie-title">Filmes Populares</h1>
+            <div class="filter">
+                <select id="filter-select">
+                    <option value="popular">Populares</option>
+                    <option value="alta">Em Alta</option>
+                    <option value="cinema">Em Cartaz</option>
+                    <option value="lançamento-futuro">Irá Lançar</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container-filmes"></div>
+    </main>
+</body>
+
+</html>
